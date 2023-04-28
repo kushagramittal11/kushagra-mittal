@@ -1,0 +1,137 @@
+:root {
+	--blue: rgba(4, 52, 92, 1);;
+  	--light-blue: rgba(36, 123, 160, 1);
+  	--grey: rgba(53, 52, 52, 1);
+  	--light-grey: rgba(226, 226, 226, 1);
+  	--accent: rgba(123, 201, 80, 1);
+}
+
+body {
+	font-family: Muli;
+}
+
+.nav-wrapper {
+	background-color: var(--blue);
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-wrapper {
+    padding: 0 30px;
+  }
+}
+
+.brand-logo {
+	font-size: 1.65em !important;
+}
+
+.right li a, .sidenav li a {
+	font-size: 1.15em !important;
+}
+
+.sidenav {
+	padding-top: 20px;
+}
+
+.landing {
+	width: 100%;
+	height: calc(100vh - 56px);
+	background: url('landing5.jpg');
+	background-position: top;
+	background-size: cover;
+	position: absolute;
+}
+
+.landing-text {
+	width: 100%;
+	color: var(--light-blue);
+	position: absolute;
+  	top: 140px;
+  	left: 50%;
+  	text-align: center;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+
+.KM {
+	font-size: 2.7em;
+	font-weight: 700;
+	margin-bottom: -15px;
+}
+
+.Welcome {
+	font-size: 2.4em;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+	.landing-text {
+		background-color: rgba(0,0,0,0.1);
+	}
+}
+
+.whitespace {
+	height: calc(100vh - 56px);
+}
+
+.heading {
+	text-align: center;
+	font-size: 3em;
+	color: var(--light-blue);
+	padding-bottom: 30px;
+}
+
+.profile-text {
+	margin: 0 8%;
+	text-align: justify;
+	font-size: 20px;
+	color: var(--grey);
+}
+.accent {
+	color: var(--accent);
+}
+
+.landing2 {
+	width: 100%;
+	height: calc(100vh - 56px);
+	background: url('landing6.jpeg');
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+}
+
+#topic1, #topic2 #topic3 {
+	margin-top: -42px;
+	margin-bottom: -20px;
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+.pic {
+	text-align: center;
+	margin-top:50px;
+}
+
+.pic img {
+	width: 85%;
+}
+
+footer {
+	border-top-style: dotted;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top-width: 1px; 
+}
+
+.landing3 {
+	width: 100%;
+	height: calc(100vh - 56px);
+	background: url('landing3.jpeg');
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+}
